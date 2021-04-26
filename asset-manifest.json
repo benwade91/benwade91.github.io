@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.7dae0e97.chunk.css",
+    "main.css": "/react-portfolio/static/css/main.b173375d.chunk.css",
     "main.js": "/react-portfolio/static/js/main.3bfe15ca.chunk.js",
     "main.js.map": "/react-portfolio/static/js/main.3bfe15ca.chunk.js.map",
     "runtime-main.js": "/react-portfolio/static/js/runtime-main.e530417f.js",
@@ -8,7 +8,7 @@
     "static/js/2.7aa47b33.chunk.js": "/react-portfolio/static/js/2.7aa47b33.chunk.js",
     "static/js/2.7aa47b33.chunk.js.map": "/react-portfolio/static/js/2.7aa47b33.chunk.js.map",
     "index.html": "/react-portfolio/index.html",
-    "static/css/main.7dae0e97.chunk.css.map": "/react-portfolio/static/css/main.7dae0e97.chunk.css.map",
+    "static/css/main.b173375d.chunk.css.map": "/react-portfolio/static/css/main.b173375d.chunk.css.map",
     "static/js/2.7aa47b33.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.7aa47b33.chunk.js.LICENSE.txt",
     "static/media/IMG_1394.4f3f0220.jpeg": "/react-portfolio/static/media/IMG_1394.4f3f0220.jpeg",
     "static/media/SimpleSuds.3fdf99a1.png": "/react-portfolio/static/media/SimpleSuds.3fdf99a1.png",
@@ -21,7 +21,7 @@
   "entrypoints": [
     "static/js/runtime-main.e530417f.js",
     "static/js/2.7aa47b33.chunk.js",
-    "static/css/main.7dae0e97.chunk.css",
+    "static/css/main.b173375d.chunk.css",
     "static/js/main.3bfe15ca.chunk.js"
   ]
 }
