@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.40f0a158.chunk.css",
-    "main.js": "/react-portfolio/static/js/main.d90fe1a9.chunk.js",
-    "main.js.map": "/react-portfolio/static/js/main.d90fe1a9.chunk.js.map",
+    "main.css": "/react-portfolio/static/css/main.50a215dd.chunk.css",
+    "main.js": "/react-portfolio/static/js/main.dd8ef122.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.dd8ef122.chunk.js.map",
     "runtime-main.js": "/react-portfolio/static/js/runtime-main.e530417f.js",
     "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.e530417f.js.map",
-    "static/js/2.859f431b.chunk.js": "/react-portfolio/static/js/2.859f431b.chunk.js",
-    "static/js/2.859f431b.chunk.js.map": "/react-portfolio/static/js/2.859f431b.chunk.js.map",
+    "static/js/2.7aa47b33.chunk.js": "/react-portfolio/static/js/2.7aa47b33.chunk.js",
+    "static/js/2.7aa47b33.chunk.js.map": "/react-portfolio/static/js/2.7aa47b33.chunk.js.map",
     "index.html": "/react-portfolio/index.html",
-    "static/css/main.40f0a158.chunk.css.map": "/react-portfolio/static/css/main.40f0a158.chunk.css.map",
-    "static/js/2.859f431b.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.859f431b.chunk.js.LICENSE.txt",
+    "static/css/main.50a215dd.chunk.css.map": "/react-portfolio/static/css/main.50a215dd.chunk.css.map",
+    "static/js/2.7aa47b33.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.7aa47b33.chunk.js.LICENSE.txt",
     "static/media/IMG_1394.4f3f0220.jpeg": "/react-portfolio/static/media/IMG_1394.4f3f0220.jpeg",
     "static/media/SimpleSuds.3fdf99a1.png": "/react-portfolio/static/media/SimpleSuds.3fdf99a1.png",
+    "static/media/blog.1c03258c.png": "/react-portfolio/static/media/blog.1c03258c.png",
     "static/media/employeemngr.b35207a0.png": "/react-portfolio/static/media/employeemngr.b35207a0.png",
     "static/media/icycle.95227c13.png": "/react-portfolio/static/media/icycle.95227c13.png",
-    "static/media/styles.css": "/react-portfolio/static/media/mtwhitney.f2cf8f47.jpeg",
     "static/media/notetaker.e567e364.png": "/react-portfolio/static/media/notetaker.e567e364.png",
     "static/media/weather.f5d08232.png": "/react-portfolio/static/media/weather.f5d08232.png"
   },
   "entrypoints": [
     "static/js/runtime-main.e530417f.js",
-    "static/js/2.859f431b.chunk.js",
-    "static/css/main.40f0a158.chunk.css",
-    "static/js/main.d90fe1a9.chunk.js"
+    "static/js/2.7aa47b33.chunk.js",
+    "static/css/main.50a215dd.chunk.css",
+    "static/js/main.dd8ef122.chunk.js"
   ]
 }
