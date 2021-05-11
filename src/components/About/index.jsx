@@ -18,7 +18,6 @@ const Hero = () => {
                         </div>
                         <div className='aboutPod'>
                             <h3>Skills</h3>
-                            <img src="images/html5.png" alt=""/>
                             <ul>
                                 <li>MongoDB</li>
                                 <li>Express</li>
@@ -38,7 +37,7 @@ const Hero = () => {
                         </div>
                         <div className='aboutPod'>
                             <h3>Who am I?</h3>
-                            <p>I'm a person who is perpetually trying to learn something new. In my free time I enjoy reading about and experimenting with new frameworks and technologies. I love the feeling I get when i finally find that bug that's been eluding me for the last few hours. Away from the computer, I enjoy working on my car, spending time outdoors, and training JiuJitsu. </p>
+                            <p>I'm a person who is perpetually trying to learn something new. In my free time I enjoy reading about and experimenting with new frameworks and technologies. I love the feeling I get when I finally find that bug that's been eluding me for the last few hours. Away from the computer, I enjoy working on my car, spending time outdoors, and training JiuJitsu. </p>
                         </div>
 
                     </div>
