@@ -1,0 +1,20 @@
+.aboutSection {
+    height: 300px;
+    overflow: scroll;
+    display: flex;
+    flex-direction: column;
+}
+
+.aboutSection p {
+    text-indent: 40px;
+}
+
+.aboutPod {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.aboutPod h3, ul {
+    align-self: center;
+    list-style: none;
+}
