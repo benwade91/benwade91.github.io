@@ -48,21 +48,21 @@ const Hero = () => {
                                 <li>Handlebars</li>
                                 <li>MySQL </li>
                                 <li>Git</li> */}
-                                <img src={jsPNG} alt='javascript'/>
-                                <img src={bootstrapPNG} alt="bootstrap"/>
-                                <img src={html5PNG} alt="html"/>
-                                <img src={css3} alt="css"/>
-                                <img src={jQueryPNG} alt="jquery"/>
-                                <img src={handlebarsPNG} alt="handlebars"/>
-                                <img src={MySqlPNG} alt="mysql"/>
-                                <img src={nodeJSPNG} alt="nodejs"/>
-                                <img src={expressPNG} alt="express"/>
-                                <img src={npmPNG} alt="npm"/>
-                                <img src={reactPNG} alt="react"/>
-                                <img src={sassPNG} alt="sass"/>
-                                <img src={github} alt="github"/>
-                                <img src={mongodbPNG} alt="mongodb"/>
-                                <img src={mernPNG} alt="mern"/>
+                                <img src={jsPNG} alt='javascript' title='javascript'/>
+                                <img src={bootstrapPNG} alt="bootstrap" title="bootstrap"/>
+                                <img src={html5PNG} alt="html" title="html"/>
+                                <img src={css3} alt="css" title="css"/>
+                                <img src={jQueryPNG} alt="jquery" title="jquery"/>
+                                <img src={handlebarsPNG} alt="handlebars" title="handlebars"/>
+                                <img src={MySqlPNG} alt="mysql" title="mysql"/>
+                                <img src={nodeJSPNG} alt="nodejs" title="nodejs"/>
+                                <img src={expressPNG} alt="express" title="express"/>
+                                <img src={npmPNG} alt="npm" title="npm"/>
+                                <img src={reactPNG} alt="react" title="react"/>
+                                <img src={sassPNG} alt="sass" title="sass"/>
+                                <img src={github} alt="github" title="github"/>
+                                <img src={mongodbPNG} alt="mongodb" title="mongodb"/>
+                                <img src={mernPNG} alt="mern" title="mern"/>
                             </ul>
                         </div>
                         <div className='aboutPod'>
