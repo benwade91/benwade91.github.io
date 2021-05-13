@@ -1,5 +1,5 @@
 .aboutSection {
-    height: 300px;
+    height: 60vh;
     overflow: scroll;
     display: flex;
     flex-direction: column;
@@ -17,4 +17,18 @@
 .aboutPod h3, ul {
     align-self: center;
     list-style: none;
+}
+
+.skillsPod{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+}
+.skillsPod li {
+    padding: 5px;
+}
+.skillsPod img {
+    padding: 5px;
+    max-height: 10vh;
+    align-self: center;
+    margin: auto;
 }

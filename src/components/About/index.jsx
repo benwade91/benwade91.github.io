@@ -2,6 +2,22 @@ import React from 'react';
 import selfie from '../../images/IMG_1394.jpeg';
 import './style.css';
 
+import jsPNG from "../../images/JS.png";
+import bootstrapPNG from '../../images/bootstrap.png';
+import css3 from '../../images/css3.png';
+import html5PNG from '../../images/html5.png';
+import jQueryPNG from '../../images/jQuery.png';
+import handlebarsPNG from '../../images/handlebars.png';
+import MySqlPNG from '../../images/MySQL.jpeg';
+import nodeJSPNG from '../../images/nodeJS.png';
+import expressPNG from '../../images/express.png';
+import npmPNG from '../../images/npm_logo.png';
+import reactPNG from '../../images/React.png';
+import sassPNG from '../../images/sass.png';
+import github from '../../images/github-logo.png';
+import mongodbPNG from '../../images/mongodb.png';
+import mernPNG from '../../images/mern.jpeg';
+
 
 const Hero = () => {
     return (
@@ -18,8 +34,8 @@ const Hero = () => {
                         </div>
                         <div className='aboutPod'>
                             <h3>Skills</h3>
-                            <ul>
-                                <li>MongoDB</li>
+                            <ul className='skillsPod'>
+                                {/* <li>MongoDB</li>
                                 <li>Express</li>
                                 <li>React </li>
                                 <li>Node</li>
@@ -31,8 +47,22 @@ const Hero = () => {
                                 <li>Bootstrap</li>
                                 <li>Handlebars</li>
                                 <li>MySQL </li>
-                                <li>Git</li>
-
+                                <li>Git</li> */}
+                                <img src={jsPNG} alt='javascript'/>
+                                <img src={bootstrapPNG} alt="bootstrap"/>
+                                <img src={html5PNG} alt="html"/>
+                                <img src={css3} alt="css"/>
+                                <img src={jQueryPNG} alt="jquery"/>
+                                <img src={handlebarsPNG} alt="handlebars"/>
+                                <img src={MySqlPNG} alt="mysql"/>
+                                <img src={nodeJSPNG} alt="nodejs"/>
+                                <img src={expressPNG} alt="express"/>
+                                <img src={npmPNG} alt="npm"/>
+                                <img src={reactPNG} alt="react"/>
+                                <img src={sassPNG} alt="sass"/>
+                                <img src={github} alt="github"/>
+                                <img src={mongodbPNG} alt="mongodb"/>
+                                <img src={mernPNG} alt="mern"/>
                             </ul>
                         </div>
                         <div className='aboutPod'>
