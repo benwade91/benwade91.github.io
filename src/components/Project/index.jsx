@@ -1,6 +1,6 @@
 import React from 'react';
 import './style.css';
-
+import parkingPal from "../../images/parkingPal.png";
 import simpleSuds from "../../images/SimpleSuds.png";
 import iCycle from "../../images/icycle.png";
 import employeeManager from "../../images/employeemngr.png";
@@ -19,13 +19,22 @@ import MySqlPNG from '../../images/MySQL.jpeg';
 import nodeJSPNG from '../../images/nodeJS.png';
 import expressPNG from '../../images/express.png';
 // import npmPNG from '../../images/npm_logo.png';
-// import reactPNG from '../../images/React.png';
-// import sassPNG from '../../images/sass.png';
+import reactPNG from '../../images/React.png';
+import sassPNG from '../../images/sass.png';
 // import github from '../../images/github-logo.png';
-// import mongodbPNG from '../../images/mongodb.png';
+import mongodbPNG from '../../images/mongodb.png';
 // import mernPNG from '../../images/mern.jpeg';
 
 const projects = [
+    {
+        name: 'Parking-Pal',
+        description: 'Parking-Pal connects users who need parking to hosts that have parking for rent. Customers can find and reserve parking places anywhere by serching in their preffered region.',
+        photoSrc: parkingPal,
+        url: 'https://parking-palz.herokuapp.com/',
+        repo: 'https://github.com/the-glorious-4/parking-pal',
+        role: 'My role in this group of 4 was to create a front end using ReactJS, SASS/CSS, JavaScript and the GoogleMaps API. Specifically, I created the landing page, the mapping page, and all of the geolocation components. I also ensured the app was completely mobile responsive.',
+        technologies: [reactPNG, mongodbPNG, sassPNG, jsPNG]
+    },
     {
         name: 'SimpleSuds',
         description: 'SimpleSuds connects customers to local laundromats that will pick up and return laundry clean, ironed, and folded. Customer can create accounts and place orders and Laudromat as admin can update the order.',
