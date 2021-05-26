@@ -87,8 +87,7 @@ const Project = () => {
                         <h3>{project.name}</h3>
                         <div>
                         {project.technologies.map(techIMG => {
-                            console.log('mmmmmm');
-                            return <img className='techPNG' src={techIMG} alt='technology png'/>
+                            return <img key={Math.random()} className='techPNG' src={techIMG} alt='technology png'/>
                         })}
                         </div>
                     </div>

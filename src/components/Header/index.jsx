@@ -1,25 +1,26 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 import './style.css'
 
-const Header = (props) => {
-    const {
-        categories = [],
-        setCurrentCategory
-    } = props;
+const Header = () => {
+    let categories = [
+        { name: 'About Me', route: '/' },
+        { name: 'Projects', route: '/projects' },
+        { name: 'Contact', route: '/contact' },
+        { name: 'Resume', route: '/resume' }
+    ];
 
     return (
         <header>
             <h1> Ben Wade</h1>
             <nav className='lg-nav'>
                 <ul>
-                    <p className="menu-btn">Menu</p>
                     {categories.map((category) => {
-                        return <li className="menu-item" key={category.name}>
-                            <span style={{ cursor: 'pointer' }} className="menu-item"
-                                onClick={() => {
-                                    setCurrentCategory(category);
-                                }}
-                            >{category.name}</span>
+                        return <li className="menu-item nav-btn" key={category.name + '1'}>
+                            <Link style={{ 'textDecoration': 'none' }} to={category.route}>
+                                <span style={{ cursor: 'pointer' }} className="menu-item"
+                                >{category.name}</span>
+                            </Link>
                         </li>
                     })}
                 </ul>
@@ -27,16 +28,17 @@ const Header = (props) => {
             <nav className='sm-nav'>
                 <div className="navbar">
                     <div className="dropdown">
-                        <button className="dropbtn">Dropdown
+                        <button className="dropbtn">Menu
       <i className="fa fa-caret-down"></i>
                         </button>
                         <div className="dropdown-content">
                             {categories.map((category) => {
-                                return <span key={category.name} style={{ cursor: 'pointer' }} className="menu-item"
-                                    onClick={() => {
-                                        setCurrentCategory(category);
-                                    }}
-                                >{category.name}<br /></span>
+                                return (
+                                    <Link key={category.name} style={{ 'textDecoration': 'none' }} to={category.route}>
+                                        <span style={{ cursor: 'pointer' }} className="menu-item"
+                                        >{category.name}<br /></span>
+                                    </Link>
+                                )
                             })}
                         </div>
                     </div>

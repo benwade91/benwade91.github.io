@@ -1,4 +1,6 @@
-import React, { useState } from 'react';
+import React from 'react';
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+
 import Header from './components/Header';
 import About from './components/About';
 import Project from './components/Project';
@@ -9,34 +11,21 @@ import './CSS/styles.css';
 
 let App = () => {
 
-    const [categories] = useState([
-        { name: 'about' },
-        { name: 'projects' },
-        { name: 'contact' },
-        { name: 'resume'}
-    ]);
-
-    const [currentCategory, setCurrentCategory] = useState(categories[0]);
-
-    const Category = ({section}) => {
-        
-    switch (section.name) {
-        case 'projects': return <Project />;
-        case 'contact': return <Contact />;
-        case 'resume': return <Resume />;
-        default: return <About />;
-    }}
-    
     return (
-        <div>
-            <Header
-                categories={categories}
-                setCurrentCategory={setCurrentCategory}
-                currentCategory={currentCategory}
-            />
-            <Category section={currentCategory} />
-            <Footer />
-        </div>)
+        <Router>
+            <div>
+                <Header />
+                <Switch>
+                    <Route exact path="/" component={About} />
+                    <Route exact path="/projects" component={Project} />
+                    <Route exact path="/contact" component={Contact} />
+                    <Route exact path="/resume" component={Resume} />
+                    {/* <Route component={NoMatch} /> */}
+                </Switch>
+                <Footer />
+            </div>
+        </Router>
+    )
 }
 
 export default App;
