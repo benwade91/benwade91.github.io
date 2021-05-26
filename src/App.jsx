@@ -7,7 +7,6 @@ import Project from './components/Project';
 import Contact from './components/Contact';
 import Resume from './components/Resume';
 import Footer from './components/Footer';
-import './CSS/styles.css';
 
 let App = () => {
 
