@@ -69,7 +69,7 @@ let Contact = () => {
                     <a href="mailto:Ben@BenNeedsAJob.com" >Email <span className='fa fa-envelope'></span></a>
                     <a href="https://github.com/benwade91" >GitHub <span className='fa fa-github'></span></a>
                     <a href="https://www.linkedin.com/in/ben-wade-6abb621b7/" >LinkedIn <span className='fa fa-linkedin'></span></a>
-                    <a href="https://www.instagram.com/_benwade_/" >Instagram <span className='fa fa-instagram'></span></a>
+                    {/* <a href="https://www.instagram.com/_benwade_/" >Instagram <span className='fa fa-instagram'></span></a> */}
                 </div>
             </div>
         </section>
